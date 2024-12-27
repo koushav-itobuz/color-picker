@@ -1,7 +1,8 @@
-const y = document.getElementById("btn");
+const btn = document.getElementById("btn");
+
 function bgcolor() {
-  let c= "#";
-  const color = c+Math.floor(Math.random()*1000000);
+  let change = "#";
+  const color = change+Math.floor(Math.random()*1000000);
   document.body.style.backgroundColor = color;
-  y.innerHTML = color;
+  btn.innerHTML = color;
 }
